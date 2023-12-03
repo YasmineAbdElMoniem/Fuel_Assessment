@@ -29,10 +29,17 @@ The test script is organized using the Page Object Model (POM) and Fluent Design
 
 **How to Run**
 
-1. Clone this repository to your local machine.
-2. Set up your Java environment with Selenium WebDriver.
-3. Open the project in your preferred Java IDE.
-4. Navigate to the test class for the FuelTracker scenario (e.g., FuelTrackerTest.java) and run the test methods.
+* ***Locally***
+
+    1. Clone this repository to your local machine.
+    2. Set up your Java environment with Selenium WebDriver.
+    3. Open the project in your preferred Java IDE.
+    4. Navigate to the test class for the FuelTracker scenario (e.g., FuelTrackerTest.java) and run the test methods.
+
+
+* ***On Cloud***
+
+    1. Using GitHub Actions on .yml file
 
 **Dependencies**
 
