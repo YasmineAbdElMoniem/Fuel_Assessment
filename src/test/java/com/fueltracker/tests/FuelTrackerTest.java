@@ -25,7 +25,7 @@ public class FuelTrackerTest extends TestBase {
         softAssertion.assertAll();
     }
 
-    @Test(priority = 3, description = "Add and verify a record is added successfully")
+    @Test(priority = 2, description = "Add and verify a record is added successfully")
     @Description("This test adds a record to the Fuel Tracker page and verifies if it is added successfully.")
     public void checkTheRecordIsAddedSuccessfully() {
         int carNumber = new Faker().number().numberBetween(10, 90);
